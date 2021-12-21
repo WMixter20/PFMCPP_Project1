@@ -113,15 +113,15 @@ waiter.getOrder();
 waiter.giveBill();
 
 //  7)
-//  Noun: student
-//  action 1: the student codes
-student.code();
+//  Noun: a Big corporation 
+//  action 1:  a Big corporation codes
+bigCorporation.code();
 
-//  action 2: the student fails
-student.fail();
+//  action 2:  a Big corporation fails
+bigCorporation.fail();
 
-//  action 3: the student studies
-student.study();
+//  action 3:  a Big corporation studies
+bigCorporation.study();
 
 //  8)
 //  Noun: football player
