@@ -114,14 +114,14 @@ waiter.giveBill();
 
 //  7)
 //  Noun: a Big corporation 
-//  action 1:  a Big corporation codes
-bigCorporation.code();
+//  action 1:  a Big corporation learns to code
+bigCorporation.learnToCode();
 
-//  action 2:  a Big corporation fails
-bigCorporation.fail();
+//  action 2:  a Big corporation fail at learning code
+bigCorporation.failAtLearningCode();
 
-//  action 3:  a Big corporation studies
-bigCorporation.study();
+//  action 3:  a Big corporation studies code
+bigCorporation.studyCode();
 
 //  8)
 //  Noun: football player
