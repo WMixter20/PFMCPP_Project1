@@ -58,7 +58,7 @@ piston.release();
 //  action 2: piston retracts
 piston.retract();
 //  action 3: piston prepares to fire
-piston.arm();
+piston.prepareToFire();
 
 //  2)
 //  Noun: microphone
@@ -94,7 +94,7 @@ trashCan.putOnCurb();
 //  5)
 //  Noun: school
 //  action 1: school hires teachers
-school.hireTeacher().
+school.hireTeacher();
 //  action 2: school buys chairs
 school.buyChair();
 
@@ -113,21 +113,22 @@ waiter.getOrder();
 waiter.giveBill();
 
 //  7)
-//  Noun: mechanic
-//  action 1: mechanic fixes car
-mechanic.fixCar();
+//  Noun: student
+//  action 1: the student codes
+student.code();
 
-//  action 2: mechanic bills me
-mechanic.billCurrentCustomer();
-//  action 3: mechanic gets paid
-mechanic.getPaid();
+//  action 2: the student fails
+student.fail();
+
+//  action 3: the student studies
+student.study();
 
 //  8)
 //  Noun: football player
 //  action 1: a football player works out
 footballPlayer.workout();
 //  action 2: a football player eats
-footballPlayer.getFood();
+footballPlayer.eat();
 //  action 3: a football player plays football
 footballPlayer.playsFootball();
 
