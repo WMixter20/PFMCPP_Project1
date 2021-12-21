@@ -52,84 +52,107 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: piston
+//  action 1: piston releases
+piston.release();
+//  action 2: piston retracts
+piston.retract();
+//  action 3: piston prepares to fire
+piston.prepareToFire();
 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun: microphone
+//  action 1: microphone listens for audio
+microphone.listenAudio();
+//  action 2: microphone gets phantom power
+microphone.phantomPower();
 
-//  action 2:
-
-//  action 3:
+//  action 3: microphone coverts audio
+microphone.convertAudio();
 
 //  3)
-//  Noun:
-//  action 1:
+//  Noun: pizza
+//  action 1: pizza is made
+pizza.make();
 
-//  action 2:
+//  action 2: pizza gets toppings
+pizza.getToppings();
 
-//  action 3:
+//  action 3: pizza gets cooked
+pizza.cook();
 
 //  4)
-//  Noun:
-//  action 1:
+//  Noun: trash can
+//  action 1: trash can filled with trash
+trashCan.fill();
+//  action 2: trash can is empty
+trashCan.empty();
 
-//  action 2:
-
-//  action 3:
+//  action 3: trash can is put on curb
+trashCan.putOnCurb();
 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun: school
+//  action 1: school hires teachers
+school.hireTeacher();
+//  action 2: school buys chairs
+school.buyChair();
 
-//  action 2:
-
-//  action 3:
+//  action 3: school gives knowdlege
+school.givesKnowledge();
 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun: Waiter
+//  action 1: waiter serves a table
+waiter.servesTable();
 
-//  action 2:
+//  action 2: waiter gets orders
+waiter.getOrder();
 
-//  action 3:
+//  action 3: waiter gives the bill
+waiter.giveBill();
 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun: a Big corporation 
+//  action 1:  a Big corporation learns to code
+bigCorporation.learnToCode();
 
-//  action 2:
+//  action 2:  a Big corporation fail at learning code
+bigCorporation.failAtLearningCode();
 
-//  action 3:
+//  action 3:  a Big corporation studies code
+bigCorporation.studyCode();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: football player
+//  action 1: a football player works out
+footballPlayer.workout();
+//  action 2: a football player eats
+footballPlayer.eat();
+//  action 3: a football player plays football
+footballPlayer.playsFootball();
 
 //  9)
-//  Noun:
-//  action 1:
+//  Noun: audio signal
+//  action 1: audio signal gets louder
+audioSignal.getsLouder();
 
-//  action 2:
+//  action 2: auido signal gets quieter
+audioSignal.getsQuieter();
 
-//  action 3:
+//  action 3: audio signal takes more power
+audioSignal.takesPower();
 
 //  10)
-//  Noun:
-//  action 1:
+//  Noun: hard drive
+//  action 1: hard drive stores data
+hardDrive.storeData();
 
-//  action 2:
+//  action 2: hard drive deletes data
+hardDrive.deleteData();
 
-//  action 3:
+//  action 3: hard drive sends data to user
+hardDrive.sendData();
 
 
 
